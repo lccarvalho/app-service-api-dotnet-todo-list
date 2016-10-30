@@ -37,9 +37,9 @@ namespace ToDoListAPI.Controllers
     {
         private string owner = "*";
 
-        private static ToDoListDataAPI NewDataAPIClient()
+        private static ToDoListDataAPITutorial NewDataAPIClient()
         {
-            var client = new ToDoListDataAPI(new Uri(ConfigurationManager.AppSettings["toDoListDataAPIURL"]));
+            var client = new ToDoListDataAPITutorial(new Uri(ConfigurationManager.AppSettings["toDoListDataAPIURL"]));
             // Uncomment following line and entire ServicePrincipal.cs file for service principal authentication of calls to ToDoListDataAPI
             //client.HttpClient.DefaultRequestHeaders.Authorization =
             //    new AuthenticationHeaderValue("Bearer", ServicePrincipal.GetS2SAccessTokenForProdMSA().AccessToken);

@@ -8,7 +8,7 @@ using ToDoListAPI;
 
 namespace ToDoListAPI
 {
-    public partial interface IToDoListDataAPI : IDisposable
+    public partial interface IToDoListDataAPITutorial : IDisposable
     {
         /// <summary>
         /// The base URI of the service.

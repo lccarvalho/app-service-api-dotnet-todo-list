@@ -144,16 +144,17 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServicePrincipal.cs" />
-    <Compile Include="ToDoListDataAPI\IToDoList.cs" />
-    <Compile Include="ToDoListDataAPI\IToDoListDataAPI.cs" />
-    <Compile Include="ToDoListDataAPI\Models\ToDoItem.cs" />
-    <Compile Include="ToDoListDataAPI\Models\ToDoItemCollection.cs" />
-    <Compile Include="ToDoListDataAPI\ToDoList.cs" />
-    <Compile Include="ToDoListDataAPI\ToDoListDataAPI.cs" />
-    <Compile Include="ToDoListDataAPI\ToDoListDataAPIExtensions.cs" />
-    <Compile Include="ToDoListDataAPI\ToDoListExtensions.cs" />
+    <Compile Include="ToDoListDataAPITutorial\IToDoList.cs" />
+    <Compile Include="ToDoListDataAPITutorial\IToDoListDataAPITutorial.cs" />
+    <Compile Include="ToDoListDataAPITutorial\Models\ToDoItem.cs" />
+    <Compile Include="ToDoListDataAPITutorial\Models\ToDoItemCollection.cs" />
+    <Compile Include="ToDoListDataAPITutorial\ToDoList.cs" />
+    <Compile Include="ToDoListDataAPITutorial\ToDoListDataAPITutorial.cs" />
+    <Compile Include="ToDoListDataAPITutorial\ToDoListDataAPITutorialExtensions.cs" />
+    <Compile Include="ToDoListDataAPITutorial\ToDoListExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\ToDoListAPITutorial - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

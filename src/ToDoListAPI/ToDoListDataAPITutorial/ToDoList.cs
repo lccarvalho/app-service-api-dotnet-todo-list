@@ -17,7 +17,7 @@ using ToDoListAPI.Models;
 
 namespace ToDoListAPI
 {
-    internal partial class ToDoList : IServiceOperations<ToDoListDataAPI>, IToDoList
+    internal partial class ToDoList : IServiceOperations<ToDoListDataAPITutorial>, IToDoList
     {
         /// <summary>
         /// Initializes a new instance of the ToDoList class.
@@ -25,17 +25,17 @@ namespace ToDoListAPI
         /// <param name='client'>
         /// Reference to the service client.
         /// </param>
-        internal ToDoList(ToDoListDataAPI client)
+        internal ToDoList(ToDoListDataAPITutorial client)
         {
             this._client = client;
         }
         
-        private ToDoListDataAPI _client;
+        private ToDoListDataAPITutorial _client;
         
         /// <summary>
-        /// Gets a reference to the ToDoListAPI.ToDoListDataAPI.
+        /// Gets a reference to the ToDoListAPI.ToDoListDataAPITutorial.
         /// </summary>
-        public ToDoListDataAPI Client
+        public ToDoListDataAPITutorial Client
         {
             get { return this._client; }
         }
